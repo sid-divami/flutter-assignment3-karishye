@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Assignment-3 Screens Implementation",
       home: const Customer(),
-      initialRoute: '/customers',
+      initialRoute: '/login',
       routes: {
         '/login': (context) => const Login(),
         '/customers': (context) => const Customer(),

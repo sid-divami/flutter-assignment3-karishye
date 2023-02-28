@@ -31,7 +31,8 @@ class ExistingCustomerCard extends StatelessWidget {
                     Row(
                       children: [
                         Icon(
-                          Icons.safety_check,
+                          Icons.location_on_outlined,
+                          size: 12,
                           color: Color(0xff50555c),
                         ),
                         Text(customerLocation ?? "customer_location",
